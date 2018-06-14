@@ -1,0 +1,33 @@
+---
+title: "Discussion_643-1"
+author: "Harpreet"
+output:
+  pdf_document:
+    toc: yes
+  pdf document: default
+  html_document:
+    fig_caption: yes
+    highlight: pygments
+    theme: cerulean
+    toc: yes
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+####Discussion - Recommender systems
+
+**Yelp** aggregates review data from its users and rank restaurants based on them. It does a fantastic job of suggesting appetizing restaurants. However,there seems to be room of improvements. The problem is Yelp provides same rank for everyone. Especially in a diversified country like USA, every people have different taste for food. Some people like Mexican food while other like Asian food. Some people care about taste only while others care about decor and services.I think Yelp recommendation can get even better with advanced collaborative filtering algorithm. 
+
+**Collaborative filtering **is making recommendation based on other similar users, not on items as opposed to content based approach. The main advantage of this method is that it does not need to know anything at all about the items, but it may require information about users. It can work perfectly with no user profile at all and in this case the recommendations will be based strictly on users that rated the same items similarly.However, the recommendations get more accurate ad more details about the users are known.
+
+Collaborative filtering have some problem like new user problem.With no information about the user, the system will not know what to recommend. This is easily countered with a registration quiz to give the system a sense of what the user is looking for or it can be mitigated by providing a set of popular items.Furthermore, this method is also prone to new item problem, where a new item will not get recommended until considerable number of users actually rate it. The problem appears frequently when the items are added not by the users themselves, but from a third party or by admins. 
+
+**Shilling Attacks -**Collaborative filtering techniques have been successfully employed in recommender systems in order to help users deal with information overload by making high quality personalized recommendations. However, such system have been shown to be vulnerable to attacks in which malicious users with carefully chosed profiles are inserted into the system in order to push the predictions of some targeted items, as mentioned in the article for movie "The Promise". Such types of attack are called shilling attacks.
+
+Looks like there are various statistical metrics for detecting patterns of shilling attackers.
+
+These metrics provides probability of a user to be a shilling attacker by studing their rating patterns within the system.
+
+These metrics can be employed for monitoring user ratings and removing shilling attacker profiles from the process of computing recommendations, thus maintaining the high quality of recommendations.
