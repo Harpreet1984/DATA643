@@ -1,0 +1,11 @@
+,User,Movie1,Movie2,Movie3,Movie4,Movie5,Movie6
+0,User1,,,,4,,4
+1,User2,4,5,4,3,2,3
+2,User3,,5,,,,5
+3,User4,5,4,,,,5
+4,User5,4,,2,,2,5
+5,User6,4,,3,3,4,
+6,User7,4,4,4,2,2,4
+7,User8,,,,,,4
+8,User9,4,4,1,,,5
+9,User10,4,3,5,5,2,3
