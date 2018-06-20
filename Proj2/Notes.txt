@@ -1,0 +1,2 @@
+Graphlab recommender models are created using graphlab.recommender.create() command.
+The input data contains SFrame with a column containing userids, itemids and ratings.
