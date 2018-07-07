@@ -1,0 +1,23 @@
+---
+title: "Discussion_643"
+author: "Harpreet"
+output:
+  pdf_document:
+    toc: yes
+  pdf document: default
+  html_document:
+    fig_caption: yes
+    highlight: pygments
+    theme: cerulean
+    toc: yes
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+According to their investigation, algorithms can be tricked to recommend increasingly sensational, manipulative and often fake content designed to nudge users towards ever more extreme views.
+Based on many reports, Google conceals any unintended biases or distortions from its recommender algorithm.
+I was thinking if there could be a legal accountability for showing false videos to the users. 
+But I think there is another dimension,ie,  is behaviour  being changed by the algorithm  or do algorithms simple  reflect already existing predisposition for engaging  with content. Psychological biases  and behavioural tendencies which part of social cognition are now increasing interned with the effects of technology that we don’t fully understand.
+One such example is funnelling recommendation, which basically leads from a broader categories to more specific and niche suggestion.This approach get a twist when recommender system drives a viewer  from a broader conservative content to a more radical footage of violence and false videos.
+I think people needs to be more educated about the side affect of this funnelling recommendation and the best way to start is from google's  itself. They should reach out to the general audience and provide some guidelines. This will provide users with hints when they are seeing aggressive form of funnelling effects. Also once we have these guidelines there should also be legal accountability, if there is a bad actor trying to take advantage of funnelling effects. I have a feeling that sometime in the future there are going to be massive legal reform around the machine learning algorithms, just don’t know how far it is from now.
